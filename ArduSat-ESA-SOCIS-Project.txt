@@ -1,0 +1,14 @@
+Below are the student project topics ArduSat will offer if we’re selected as an ESA-SOCIS mentor organization. If you have any more ideas, please email me at joel@nanosatisfi.com and I’ll add them to our application!
+
+
+
+1) Camera GUI and Backend: The downlink capacity of the ArduSat is too small to allow real-time streaming images, but in order to let users easily choose camera settings and frame their pictures before taking them. The project would be to write a program and user interface that would:
+- accept as inputs: simulated orbital elements, orbital position and attitude vector
+- output: (using either Google Earth or a simple 3D model) a simulated image of the camera’s field-of-view, current position of the satellite, and orbital path
+- extra consideration will be given to student proposals that suggest ideas on how they would add simulated real-time weather to the generated image
+ 
+2) Camera Optimization: The settings on the camera can be manually changed, but we expect many users will prefer they be tuned automatically for ease of use. The project would be to develop an algorithm (in C) to automatically optimize the exposure, gain, white balance, colour matrix, and windowing of a camera using machine-vision techniques and values from emulated external sensors.
+
+3) Your Experiment in Space: Through SOCIS, students can also propose an experiment, using the same guidelines as the competition being run by our partner, Discover Magazine. 
+
+Joel
